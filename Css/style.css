@@ -1,0 +1,129 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp14824609.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1920;
+    height: 1080;
+    
+}
+
+header{
+    background-color: rgba(0,0,0,0.75);
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    background-color: rgba(0,0,0,0.70);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid rgb(194, 194, 194)
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+@font-face {
+    font-family: fonte-hollow;
+    src: url("chadlershireemboss.otf");
+}
+
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: fonte-hollow;
+    margin-bottom: 5px;
+    font-size: 105px;
+}
+
+h2{
+    color: #d8d8ff;
+    font-size: 32px;
+    border-bottom: 2px solid white;
+    padding-bottom: 8px;
+}
+
+ul{
+    font-size: 22px;
+    line-height: 2;
+}
+
+li{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.text-obliquo{
+    font-style: oblique;
+}
+
+
+.segundo{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #d8d8ff;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+    border: 3px solid white;
+}
+
+.secimg{
+    border-color: transparent;
+    position: absolute;
+    top: 2690px;
+    left: 1000px;
+}
+
+.terimg{
+    border-color: transparent;
+}
+
+
+hr{
+    border: 1px solid white;
+}
+
+figcaption{
+    color: white;
+}
+
+figcaption{
+    margin-top: 10px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0.85);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p{
+    text-align: center;
+}
+
+strong{
+    color: #004cff;
+}
+section:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
