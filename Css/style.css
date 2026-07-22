@@ -24,7 +24,8 @@ section{
     margin: 30px;
     padding: 20px;
     border-radius: 15px;
-    border: 2px solid rgb(194, 194, 194)
+    border: 2px solid rgb(194, 194, 194);
+    box-shadow: 0px 0px 12px 8px black;
 }
 
 
@@ -89,8 +90,8 @@ img{
 .secimg{
     border-color: transparent;
     position: absolute;
-    top: 2690px;
-    left: 1000px;
+    top: 2465px;
+    left: 1150px;
 }
 
 .terimg{
@@ -126,4 +127,5 @@ strong{
 section:hover{
     transform: scale(1.05);
     transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.75)
 }
