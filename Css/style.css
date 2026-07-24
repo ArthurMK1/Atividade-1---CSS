@@ -38,8 +38,6 @@ section{
     border-radius: 18px;
     border: 2px solid rgb(194, 194, 194);
     box-shadow: 0px 0px 12px 8px black;
-
-    
 }
 
 
@@ -113,7 +111,9 @@ li{
     color: #d8d8ff;
 }
 
+
 /* IMAGENS */
+
 
 img{
     display: block;
@@ -160,11 +160,16 @@ figure{
     text-align: center;
 }
 
+/* RODAPÉ */
+
 footer{
     background-color: rgb(0, 0, 0.85);
-    padding: 20px;
+    padding: 30px;
     margin-top: 30px;
+    text-align:center;
+    border-top:2px solid #4f8fff;
 }
+
 
 footer p{
     text-align: center;
@@ -174,28 +179,59 @@ strong{
     color: #004cff;
 }
 
+.footergif{
+    border: transparent;
+    position: absolute;
+    top: 6370px;
+    left: 1650px;
+}
+
+.footergif:hover{
+    transform: rotate(360deg);
+    box-shadow: none;
+}
+
 
 
 /* CONSTRUINDO O MENU */
 
 
 nav{
-    margin-top: 25px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 nav a{
     color:white;
     text-decoration: none;
     margin: 15px;
-    font-size: 35px;
-    transition: 0.3s;
+    font-size: 25px;
+    transition: 0.35s;
+
+    font-weight: bold;
+    padding:12px 22px;
+    background:rgba(255, 255, 255, 0.089);
+    border:2px solid rgba(255,255,255,.15);
+    border-radius: 30px;
+    box-shadow:0 0 8px rgba(0,0,0,.5);
 }
+
 
 nav a:hover{
     color: rgb(118, 223, 255);
+    transform:translateY(-5px);
+    box-shadow:0 0 18px #4f8fff;
+
 }
 
+/* TELA DESCE SUAVEMENTE */
 
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -214,6 +250,8 @@ nav a:hover{
     border-radius:10px;
 }
 
+
+
 /* SELEÇÃO DE TEXTO */
 
 
@@ -221,4 +259,36 @@ nav a:hover{
     background:#2238ff;
     color:white;
 }
+
+
+/* BOTÃO PRA VOLTAR AO TOPO */
+
+.topo{
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+
+    background:#3366ff;
+    color: white;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.topo:hover{
+    transition: .4s;
+    background: white;
+    color: black
+
+}
+
 
